@@ -24,6 +24,18 @@ Infix ifadeleri postfix ve prefix biçimlerine dönüştüren, postfix ifadeleri
 
 C# · Stack
 
+## Teknik yaklaşım
+
+Stack<char> ile operatör önceliği yönetilir; prefix dönüşümü ters çevirme ve parantez değişimiyle elde edilir. Stack<int> postfix değerlendirmesinde operandları tutar.
+
+## Kodu incelemeye başlayın
+
+- [Program.cs](Program.cs)
+
+## Kapsam ve sınırlar
+
+İşleme karakter bazlıdır; çok basamaklı sayılar ve kapsamlı sözdizimi doğrulaması için ayrı bir tokenizer/parser gerekir.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
