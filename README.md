@@ -2,140 +2,30 @@
 
 # Postfix & Prefix
 
-### İfadeyi dönüştür, işlem sırasını çöz.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3500&pause=2200&color=38bdf8&background=0D1117&center=true&vCenter=true&width=760&height=76&lines=%C4%B0fadeyi%20d%C3%B6n%C3%BC%C5%9Ft%C3%BCr%2C%20i%C5%9Flem%20s%C4%B1ras%C4%B1n%C4%B1%20%C3%A7%C3%B6z." alt="İfadeyi dönüştür, işlem sırasını çöz." width="760" />
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
-![Stack](https://img.shields.io/badge/Stack-0891b2?style=for-the-badge)
-[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
+<br />
+
+<img alt="C#" src="https://img.shields.io/badge/C%23-38bdf8?style=for-the-badge" />
+<img alt="Stack" src="https://img.shields.io/badge/Stack-2563eb?style=for-the-badge" />
+
+<br /><br />
 
 Infix ifadeleri postfix ve prefix biçimlerine dönüştüren, postfix ifadeleri değerlendiren konsol uygulaması.
 
-**Matematiksel ifade dönüşümü**
+<br />
 
-[Projeyi keşfet](https://github.com/silanpehlivan/Postfix-ve-Prefix-Yap-s-/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
+**Yığın tabanlı ifade dönüşümü** &nbsp; · &nbsp; **Operatör önceliğinin yönetimi** &nbsp; · &nbsp; **Postfix ifadelerin sayısal değerlendirilmesi**
+
+<br /><br />
+
+[![Projeyi keşfet](https://img.shields.io/badge/PROJEYİ_KEŞFET-2563eb?style=for-the-badge)](https://github.com/silanpehlivan/Postfix-ve-Prefix-Yap-s-/tree/master)
+[![Kurulum](https://img.shields.io/badge/KURULUM_&_TEKNİK_NOTLAR-334155?style=for-the-badge)](PROJECT_GUIDE.md)
 
 </div>
 
 ---
 
-## İçeride neler var?
-
-- **01** · Yığın tabanlı ifade dönüşümü
-- **02** · Operatör önceliğinin yönetimi
-- **03** · Postfix ifadelerin sayısal değerlendirilmesi
-
-## Projeyi çalıştırmak ve incelemek
-
-<details>
-<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
-
-## Öne Çıkanlar
-
-- Yığın tabanlı ifade dönüşümü
-- Operatör önceliğinin yönetimi
-- Postfix ifadelerin sayısal değerlendirilmesi
-
-## Teknolojiler
-
-C# · Stack
-
-### Teknik yaklaşım
-
-Stack<char> ile operatör önceliği yönetilir; prefix dönüşümü ters çevirme ve parantez değişimiyle elde edilir. Stack<int> postfix değerlendirmesinde operandları tutar.
-
-### Kodu incelemeye başlayın
-
-- [Program.cs](Program.cs)
-
-### Kapsam ve sınırlar
-
-İşleme karakter bazlıdır; çok basamaklı sayılar ve kapsamlı sözdizimi doğrulaması için ayrı bir tokenizer/parser gerekir.
-
-
-
-Bu proje, infix ifadelerin **postfix** ve **prefix** gösterimlerine dönüştürülmesini ve postfix ifadelerin hesaplanmasını sağlayan C# implementasyonlarını içermektedir. Veri yapıları derslerinde sıkça kullanılan bu konu, **yığın (stack)** veri yapısı ile ele alınmıştır.
-
----
-
-## Özellikler
-
-- **Infix → Postfix Dönüşümü:** Orta ek gösterimi son ek gösterimine çevirir  
-- **Infix → Prefix Dönüşümü:** Orta ek gösterimi ön ek gösterimine çevirir  
-- **Postfix Hesaplama:** Postfix ifadelerin sayısal sonucunu hesaplar  
-- **Operatör Önceliği:** `+`, `-`, `*`, `/`, `^` işleçlerinin önceliğini dikkate alır  
-- **Stack Kullanımı:** `Stack<char>` ve `Stack<int>` veri yapıları ile işlem yapılır  
-
----
-
-## Teknik Detaylar
-
-- **Dil:** C#  
-- **Veri Yapısı:** Stack (Yığın)  
-- **Algoritmalar:**  
-  - Infix → Postfix dönüşüm algoritması  
-  - Infix → Prefix dönüşüm algoritması  
-  - Postfix değerlendirme algoritması  
-
----
-
-## Kazanımlar
-
-- Yığın veri yapısını etkin kullanma  
-- Matematiksel ifade dönüşümlerini anlama  
-- Algoritmik düşünme becerisi geliştirme  
-- Operatör önceliği mantığını öğrenme  
-- İfade çözümleme algoritmalarını kavrama  
-
----
-
-## Kurulum
-
-1.  Projeyi klonlayın veya ZIP olarak indirin  
-2.  Proje klasörüne gidin  
-3.  Visual Studio ile `.sln` dosyasını açın  
-4.  Projeyi derleyip çalıştırın  
-
----
-
-## Kullanım
-
-Program çalıştırıldığında:
-
-- Infix ifade postfix’e dönüştürülür  
-- Infix ifade prefix’e dönüştürülür  
-- Postfix ifade hesaplanarak sonuç ekrana yazdırılır  
-
----
-
-## Proje Yapısı
-
-- App.config  
-- LICENSE  
-- Program.cs  
-- Ödev_5.csproj  
-- Ödev_5.sln  
-- README.md  
-- Properties klasörü  
-
----
-
-## Katkıda Bulunma
-
-Katkılarınız memnuniyetle karşılanır. Hata bildirimi veya yeni özellik önerileri için issue açabilir veya pull request gönderebilirsiniz.
-
----
-
-
-
-
-</details>
-
----
-
 <div align="center">
-
-**© 2024 Şilan PEHLİVAN**
-
-Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
-
+<sub>© 2024 Şilan PEHLİVAN · <a href="LICENSE">MIT lisansı</a></sub>
 </div>
